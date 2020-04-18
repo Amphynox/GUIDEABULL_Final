@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="450dp"
+        android:layout_height="950dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="390dp"/>
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="450dp"
+        android:layout_height="390dp"
+        tools:context=".MapsActivity"
+        />
+
+    <Button
+        android:id="@+id/usfLibrary"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="420dp"
+        android:text="USF LIBRARY"/>
+    <Button
+        android:id="@+id/usfMsc"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="420dp"
+        android:text="MSC"/>
+    <Button
+        android:id="@+id/collegeOfEgn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="490dp"
+        android:text="ENGINEERING II"/>
+    <Button
+        android:id="@+id/mumaCollegeBsn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="490dp"
+        android:text="MUMA"/>
+    <Button
+        android:id="@+id/collegEdu"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="560dp"
+        android:text="EDUCATION"/>
+    <Button
+        android:id="@+id/CllgofPublicHealth"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="560dp"
+        android:text="PUBLIC HEALTH"/>
+    <Button
+        android:id="@+id/hollyApt"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="630dp"
+        android:text="HOLLY APT"/>
+    <Button
+        android:id="@+id/schlOfMusic"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="630dp"
+        android:text="MUSIC"/>
+    <Button
+        android:id="@+id/CllgOfMedicine"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="700dp"
+        android:text="MORSANI"/>
+    <Button
+        android:id="@+id/Yuengling"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="700dp"
+        android:text="BACK"/>
+</RelativeLayout>
+
